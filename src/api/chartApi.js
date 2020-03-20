@@ -37,7 +37,7 @@ export default {
     },
 
     getBars: function (symbolInfo, resolution, from, to, onHistoryCallback, onErrorCallback, firstDataRequest) {
-        fetch('./data/SPX500.csv').then(data => {
+        fetch('./demo-chart/data/SPX500.csv').then(data => {
             return data.text();
         }).then(data => {
             let parsedData = _.chain(readString(data).data)

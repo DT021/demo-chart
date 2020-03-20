@@ -3,18 +3,12 @@ import './ChartContainer.css';
 import {widget} from '../../charting_library/charting_library.min';
 import Datafeed from '../../api/chartApi';
 
-function getLanguageFromURL() {
-    const regex = new RegExp('[\\?&]lang=([^&#]*)');
-    const results = regex.exec(window.location.search);
-    return results === null ? null : decodeURIComponent(results[1].replace(/\+/g, ' '));
-}
-
 class ChartContainer extends React.PureComponent {
     static defaultProps = {
         symbol: 'USD/EUR',
         interval: '60',
         containerId: 'tv_chart_container',
-        libraryPath: '/charting_library/',
+        libraryPath: '/demo-chart/charting_library/',
         chartsStorageUrl: 'https://saveload.tradingview.com',
         chartsStorageApiVersion: '1.1',
         clientId: 'tradingview.com',
