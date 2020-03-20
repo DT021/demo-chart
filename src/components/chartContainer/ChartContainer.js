@@ -44,7 +44,7 @@ class ChartContainer extends React.PureComponent {
 
         tvWidget.onChartReady(() => {
             tvWidget.headerReady().then(() => {
-                const button = tvWidget.createButton();
+                /*const button = tvWidget.createButton();
                 button.setAttribute('title', 'Click to show a notification popup');
                 button.classList.add('apply-common-tooltip');
                 button.addEventListener('click', () => tvWidget.showNoticeDialog({
@@ -55,7 +55,7 @@ class ChartContainer extends React.PureComponent {
                     },
                 }));
 
-                button.innerHTML = 'Check API';
+                button.innerHTML = 'Check API';*/
             });
         });
     }
