@@ -37,7 +37,6 @@ export default {
     },
 
     getBars: function (symbolInfo, resolution, from, to, onHistoryCallback, onErrorCallback, firstDataRequest) {
-        console.log(process.env.REACT_APP_FILE_PATH);
         fetch(process.env.REACT_APP_FILE_PATH).then(data => {
             return data.text();
         }).then(data => {
