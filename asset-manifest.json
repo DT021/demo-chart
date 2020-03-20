@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/demo-chart/static/css/main.10484fae.chunk.css",
-    "main.js": "/demo-chart/static/js/main.121d05ed.chunk.js",
-    "main.js.map": "/demo-chart/static/js/main.121d05ed.chunk.js.map",
+    "main.js": "/demo-chart/static/js/main.c72d9e4b.chunk.js",
+    "main.js.map": "/demo-chart/static/js/main.c72d9e4b.chunk.js.map",
     "runtime-main.js": "/demo-chart/static/js/runtime-main.460b356d.js",
     "runtime-main.js.map": "/demo-chart/static/js/runtime-main.460b356d.js.map",
     "static/js/2.647de234.chunk.js": "/demo-chart/static/js/2.647de234.chunk.js",
     "static/js/2.647de234.chunk.js.map": "/demo-chart/static/js/2.647de234.chunk.js.map",
     "index.html": "/demo-chart/index.html",
-    "precache-manifest.09ea8dcb4a6f1a309905032e555b3b94.js": "/demo-chart/precache-manifest.09ea8dcb4a6f1a309905032e555b3b94.js",
+    "precache-manifest.ef75bf992b273e5f239b3ff61d6a5bcc.js": "/demo-chart/precache-manifest.ef75bf992b273e5f239b3ff61d6a5bcc.js",
     "service-worker.js": "/demo-chart/service-worker.js",
     "static/css/main.10484fae.chunk.css.map": "/demo-chart/static/css/main.10484fae.chunk.css.map",
     "static/js/2.647de234.chunk.js.LICENSE.txt": "/demo-chart/static/js/2.647de234.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.460b356d.js",
     "static/js/2.647de234.chunk.js",
     "static/css/main.10484fae.chunk.css",
-    "static/js/main.121d05ed.chunk.js"
+    "static/js/main.c72d9e4b.chunk.js"
   ]
 }
