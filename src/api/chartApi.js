@@ -1,16 +1,9 @@
 import {readString} from 'react-papaparse';
 import _ from 'lodash';
 
-const SUPPORTED_RESOLUTIONS = ["60", "120", "240", "D"];
-
-const CONFIG = {
-    supported_resolutions: SUPPORTED_RESOLUTIONS
-};
-
-
 export default {
     onReady: cb => {
-        setTimeout(() => cb(CONFIG), 0);
+        setTimeout(() => cb(), 0);
     },
     searchSymbols: (userInput, exchange, symbolType, onResultReadyCallback) => {
     },
@@ -27,8 +20,7 @@ export default {
             minmov: 1,
             pricescale: 100,
             has_intraday: true,
-            supported_resolution: SUPPORTED_RESOLUTIONS,
-            volume_precision: 4,
+            has_no_volume: true
         };
 
         setTimeout(function () {
@@ -49,8 +41,7 @@ export default {
                         open: el[1],
                         high: el[2],
                         low: el[3],
-                        close: el[4],
-                        volume: el[5]
+                        close: el[4]
                     }
                 })
                 .value();
